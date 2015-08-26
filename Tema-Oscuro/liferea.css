@@ -9,7 +9,7 @@ body {
 	font-family: Raleway;
 }
 
-/*Caja de comentarios*/
+/*cita textual*/
 blockquote {
         border-left: 14px solid #1E1E1E;
         background: #E6E6E6;
@@ -33,11 +33,9 @@ pre {
 	color: #EEE;
 }
 
-
 a {
 	color: #00B00C;
 	font-weight: bold;
-
 }
 
 a:visited {
@@ -48,8 +46,6 @@ a:visited {
 dd {
 	padding-left: 30px;
 }
-
-/*Centrado de imagen*/
 
 img {
 	border:10px;
@@ -64,20 +60,18 @@ img {
 
 
 img.gravatar {
-	/* gravatars have align="left" so we need proper margin */
 	margin-right:120px;
 	visibility: hidden;
 
 }
 
 #map img {
-	/* OpenStreeMap map tiles must have no border */
 	border:0px;
 	margin:0px;
 }
 
-/* styles for the item description (currently also used for
-   the feed description) */
+/* Descripción del artículo (en la actualidad también se utiliza para
+    la descripción de alimentación) */
 table.itemhead, table.feedhead {
 	margin:0;
 	width:100%;
@@ -208,7 +202,7 @@ a.favicon img {
 	visibility: hidden;
 }
 
-/* styles to realize shading of new items in condensed mode */
+/* Estilos que dan cuenta de la sombra de nuevos artículos en modo condensado */
 .itemshaded { background:#ffe; color:black; padding:1px; margin:0; }
 
 .itemunshaded { padding:1px; margin:0; }
@@ -248,8 +242,8 @@ hr.summary {
 	border-bottom:1px dashed #ddd;
 }
 
-/* style for the HTTP error box at the beginning
-   of the feed description and for item comment feeds */
+/* Estilo para el cuadro de error HTTP al inicio
+    de la descripción de alimentación y para el elemento comentario alimentaciones */
 #errors, #commentFeedError {
 	width:100%;
 	border:0;
@@ -300,7 +294,7 @@ ins {
 	text-decoration: underline;
 }
 
-/* namespace specific styles */
+/* Namespace estilo especifico */
 div.blogchanneltitle {
 	padding-left:10px;
 	padding-right:10px;
