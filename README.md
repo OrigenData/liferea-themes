@@ -8,7 +8,6 @@ http://www.fontsquirrel.com/fonts/Raleway
 
 Y reemplazar el archivo "/usr/share/liferea/css/liferea.css" por el tema que prefieran, y ejecutar en la terminal:
 
-$ liferea --debug-html 
+`$ liferea --debug-html`
 
 Para efectuar los cambios :)
-
