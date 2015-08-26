@@ -19,7 +19,7 @@ Tema Oscuro
 <img  src="https://origendata.files.wordpress.com/2015/08/liferea-tema-oscuro.png">
 
 
-Tema Iluminoso
+Tema Luminoso
 -----
 
 <img  src="https://origendata.files.wordpress.com/2015/08/liferea-tema-iluminoso.png">
