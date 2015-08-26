@@ -1,14 +1,12 @@
 # liferea-themes
 
 =========
+Son un par de temas que cambia la apariencia del visor de lectura de Liferea.
 
-Les dejo un tema que cambia la apariencia del visor de lectura,
-teniendo el código del tema solo tiene que instalar la tipografía
-Raleway en el siguiente enlace:
+Teniendo el código del tema solo tiene que instalar la tipografía Raleway:
 http://www.fontsquirrel.com/fonts/Raleway
 
-Y reemplazar el archivo "/usr/share/liferea/css/liferea.css" por el tema
-actual descargado, y ejecutar en la terminal:
+Y reemplazar el archivo "/usr/share/liferea/css/liferea.css" por el tema que prefieran, y ejecutar en la terminal:
 
 $ liferea --debug-html 
 
