@@ -1,6 +1,6 @@
 body {
-	background: #333;
-	color: #EEE;
+	background: #EEE;
+	color: #333;
 	padding-top: 0px;
 	padding-right: 30px;
   	padding-bottom: 0px;
@@ -11,12 +11,12 @@ body {
 
 /*cita textual*/
 blockquote {
-        border-left: 14px solid #EEE;
-        background: #1E1E1E;
+        border-left: 14px solid #1E1E1E;
+        background: #E6E6E6;
         padding: 1px;
         margin: 5px 20px;
 	clear:both;
-	color: #EEEEEE;
+	color: #333;
 	font-weight: bold;
 }
 
@@ -30,13 +30,12 @@ pre {
 	border-radius: 3px;
 	line-height: 1.5;
 	overflow: auto;
+	color: #EEE;
 }
-
 
 a {
 	color: #00B00C;
 	font-weight: bold;
-
 }
 
 a:visited {
@@ -56,6 +55,7 @@ img {
 	display: block;
 	margin: 0px auto;
 	text-align:center;
+
 }
 
 
@@ -71,19 +71,19 @@ img.gravatar {
 }
 
 /* Descripción del artículo (en la actualidad también se utiliza para
-    la descripción de alimentación) */
+    la descripción de alimentación) */
 table.itemhead, table.feedhead {
 	margin:0;
 	width:100%;
 	border:80px;
-	border-bottom: 1px solid #EEE;
+	border-bottom: 1px solid #333;
 	clear:both;
-	color:#EEE;
+	color:#333;
 }
 
 /*Barra de titulo del articulo*/
 .itemhead, .feedhead {
-	background-color:#333
+	background-color:#EEE
 	}
 
 table.itemhead * td {
@@ -93,7 +93,7 @@ table.itemhead * td {
 /*Titulo de cada articulo*/
 table.itemhead * a.itemhead {
 	text-decoration:none;
-	color:#EEE;
+	color:#333;
 	font-weight:bold;
 	font-size: 20px;
 }
@@ -107,10 +107,10 @@ td.headright {
 }
 
 table.headmeta {
-	background:#333;
+	background:#EEE;
 	width:100%;
 	border:0;
-	border-bottom:#EEE solid 1px;
+	border-bottom:#333 solid 1px;
 	margin:0;
 }
 
@@ -131,7 +131,7 @@ table.headmeta td {
 
 .itemmenu a {
 	text-decoration:none;
-	color:#333;
+	color:#E6E6E6;
 }
 
 .itemmenu a:hover {
@@ -172,7 +172,7 @@ div.content {
 }
 
 div.comment {
-	border:1px solid #FFFFEE;
+	border:1px solid #1E1E1E;
 	margin-bottom:5px;
 	border-radius: 3px;
 }
@@ -186,7 +186,7 @@ div.comment_title {
 	padding-left:6px;
 	padding-right:6px;
 	font-weight:bold;
-	background:#393F3F;
+	background:#E6E6E6;
 }
 
 a.favicon {
@@ -243,7 +243,7 @@ hr.summary {
 }
 
 /* Estilo para el cuadro de error HTTP al inicio
-    de la descripción de alimentación y para el elemento comentario alimentaciones */
+    de la descripción de alimentación y para el elemento comentario alimentaciones */
 #errors, #commentFeedError {
 	width:100%;
 	border:0;
@@ -315,7 +315,7 @@ div.blogchanneltitle {
 
 .slashValue {
 	padding-right:6px;
-	color:#333333;
+	color:#EEE;
 	font-weight:bold;
 }
 
@@ -327,4 +327,3 @@ div.photoheader {
 	color:#333;
 
 }
-
