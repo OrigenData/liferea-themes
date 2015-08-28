@@ -1,6 +1,6 @@
 body {
-	background: #EEE;
-	color: #333;
+	background: #333;
+	color: #EEE;
 	padding-top: 0px;
 	padding-right: 30px;
   	padding-bottom: 0px;
@@ -11,12 +11,12 @@ body {
 
 /*cita textual*/
 blockquote {
-        border-left: 14px solid #1E1E1E;
-        background: #E6E6E6;
+        border-left: 14px solid #EEE;
+        background: #1E1E1E;
         padding: 1px;
         margin: 5px 20px;
 	clear:both;
-	color: #333;
+	color: #EEEEEE;
 	font-weight: bold;
 }
 
@@ -30,12 +30,13 @@ pre {
 	border-radius: 3px;
 	line-height: 1.5;
 	overflow: auto;
-	color: #EEE;
 }
+
 
 a {
 	color: #00B00C;
 	font-weight: bold;
+
 }
 
 a:visited {
@@ -55,7 +56,6 @@ img {
 	display: block;
 	margin: 0px auto;
 	text-align:center;
-
 }
 
 
@@ -76,14 +76,14 @@ table.itemhead, table.feedhead {
 	margin:0;
 	width:100%;
 	border:80px;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #EEE;
 	clear:both;
-	color:#333;
+	color:#EEE;
 }
 
 /*Barra de titulo del articulo*/
 .itemhead, .feedhead {
-	background-color:#EEE
+	background-color:#333
 	}
 
 table.itemhead * td {
@@ -93,7 +93,7 @@ table.itemhead * td {
 /*Titulo de cada articulo*/
 table.itemhead * a.itemhead {
 	text-decoration:none;
-	color:#333;
+	color:#EEE;
 	font-weight:bold;
 	font-size: 20px;
 }
@@ -107,10 +107,10 @@ td.headright {
 }
 
 table.headmeta {
-	background:#EEE;
+	background:#333;
 	width:100%;
 	border:0;
-	border-bottom:#333 solid 1px;
+	border-bottom:#EEE solid 1px;
 	margin:0;
 }
 
@@ -131,7 +131,7 @@ table.headmeta td {
 
 .itemmenu a {
 	text-decoration:none;
-	color:#E6E6E6;
+	color:#333;
 }
 
 .itemmenu a:hover {
@@ -172,7 +172,7 @@ div.content {
 }
 
 div.comment {
-	border:1px solid #1E1E1E;
+	border:1px solid #FFFFEE;
 	margin-bottom:5px;
 	border-radius: 3px;
 }
@@ -186,7 +186,7 @@ div.comment_title {
 	padding-left:6px;
 	padding-right:6px;
 	font-weight:bold;
-	background:#E6E6E6;
+	background:#393F3F;
 }
 
 a.favicon {
@@ -315,7 +315,7 @@ div.blogchanneltitle {
 
 .slashValue {
 	padding-right:6px;
-	color:#EEE;
+	color:#333333;
 	font-weight:bold;
 }
 
@@ -327,4 +327,3 @@ div.photoheader {
 	color:#333;
 
 }
-
